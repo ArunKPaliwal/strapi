@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "websites",
+  "info": {
+    "singularName": "website",
+    "pluralName": "websites",
+    "displayName": "website",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "attributes": {
+    "enabled": {
+      "type": "boolean",
+      "default": false
+    },
+    "Name": {
+      "type": "string"
+    }
+  }
+}

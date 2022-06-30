@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_page_elements_metas",
+  "info": {
+    "displayName": "Meta"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "content": {
+      "type": "string"
+    },
+    "httpequiv": {
+      "type": "string"
+    },
+    "charset": {
+      "type": "string"
+    }
+  }
+}

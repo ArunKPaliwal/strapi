@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "web_pages",
+  "info": {
+    "singularName": "web-page",
+    "pluralName": "web-pages",
+    "displayName": "Web Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "meta": {
+      "type": "dynamiczone",
+      "components": [
+        "page-elements.meta"
+      ]
+    }
+  }
+}
